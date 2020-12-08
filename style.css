@@ -1,0 +1,38 @@
+body {
+    overflow: hidden;
+    /* Hide scrollbars */
+    margin: 0px;
+  }
+
+#sketch {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+  }
+
+  canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+button {
+  margin-top: 20px;
+  line-height: 60px;
+  font-weight: bold;
+  padding: 0 40px;
+  background: salmon;
+  border: none;
+}
+button:hover {
+  background: lightsalmon;
+}
