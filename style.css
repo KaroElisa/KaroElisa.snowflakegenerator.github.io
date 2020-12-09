@@ -25,14 +25,20 @@ body {
     right: 0;
 }
 
-button {
+h1 {
   margin-top: 20px;
-  line-height: 60px;
-  font-weight: bold;
-  padding: 0 40px;
-  background: salmon;
-  border: none;
+  margin-bottom: 5px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom:0px;
 }
-button:hover {
-  background: lightsalmon;
+p {
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding-left: 40px;
 }
