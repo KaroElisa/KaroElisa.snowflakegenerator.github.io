@@ -43,7 +43,7 @@
           
           //ZOOM IN
           scale(s);
-          s= s+0.002;
+          s= s+0.003;
           //println(s);
           
           if (s > 0.89){
@@ -60,8 +60,9 @@
           
           a1 = a1+(PI/150);
         
-          //println(a1);
-          
+          if (a1 == TWO_PI){
+           a1 = 0; 
+          }
           
           //MOTION
           
