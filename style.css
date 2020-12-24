@@ -2,7 +2,6 @@ body {
     overflow: hidden;
     /* Hide scrollbars */
     margin: 0px;
-    outline: 0px solid transparent;
   }
 
 #sketch {
@@ -25,6 +24,7 @@ body {
     left: 0;
     right: 0;
     border-style: none;
+    outline: 0px solid transparent;
 }
 
 h1 {
