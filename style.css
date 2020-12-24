@@ -2,6 +2,7 @@ body {
     overflow: hidden;
     /* Hide scrollbars */
     margin: 0px;
+    outline: 0 none;
   }
 
 #sketch {
